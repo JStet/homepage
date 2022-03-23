@@ -5,10 +5,9 @@
 <!---Mobile Navbar------------------>
 <nav
   class="navbar is-hidden-desktop is-light is-fixed-top"
-  aria-label="main navigation"
   id="navbar_mobile"
 >
-  <div class="navbar-brand is-mobile is-light">
+  <div class="is-mobile is-light">
     <div class="navbar-item breadcrumb is-marginless center px-6 ">
       <a href="#top" class="has-text-weight-bold is-size-5 logo has-text-dark ">
         <span class="icon is-small">
@@ -16,31 +15,6 @@
         </span>
         <span>Jonas Stettner</span>
       </a>
-    </div>
-    <a
-      role="button"
-      class="navbar-burger column is-2"
-      data-target="navMenu"
-      aria-label="menu"
-      aria-expanded="false"
-    >
-      <span aria-hidden="true" />
-      <span aria-hidden="true" />
-      <span aria-hidden="true" />
-    </a>
-  </div>
-  <div class="navbar-menu has-background-light is-shadowless" id="navMenu">
-    <div class="center breadcrumb is-medium-touch is-small-mobile">
-      <ul>
-        <li>
-          <a href="#projects_hero_mobile">
-            <span class="icon is-small">
-              <i class="fas fa-wrench" />
-            </span>
-            <span>Projects</span>
-          </a>
-        </li>
-      </ul>
     </div>
   </div>
 </nav>
