@@ -35,7 +35,7 @@
 {/if}
 
 <style>
-#placeholder{
-  height: 100%;
-}
+  #placeholder {
+    height: 100%;
+  }
 </style>

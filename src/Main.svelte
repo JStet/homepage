@@ -67,7 +67,7 @@
 </div>
 <!--  -->
 <div id="projects_anker" class="is-hidden-touch" />
-<div class="columns is-mobile" id="projects">
+<div class="columns is-mobile " id="projects">
   <div class="column is-1 " />
   <div class="column is-hidden-touch" />
   <div class="column is-5-desktop">
@@ -77,7 +77,7 @@
         Click on the icons above to select a topic.
       </p>
 
-      <div class="columns is-multiline is-8">
+      <div class="columns is-multiline">
         <Projects selectedTopic={topic} />
       </div>
     </div>

@@ -41,8 +41,17 @@
 <style>
   footer {
     position: fixed;
-    left: 0;
     bottom: 0;
     width: 100%;
+  }
+
+  @media only screen and (max-width: 1023px) {
+    footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding-bottom: 0;
+    }
   }
 </style>
