@@ -29,10 +29,13 @@
     </p>
   </div>
 {:else}
-  {#each filteredProjects as { id, topic, text, src, alt, href }}
-    <Card {text} {src} {alt} {href} />
+  {#each filteredProjects as { id, topic, text, title, href }}
+    <Card {text} {title} {href} />
   {/each}
 {/if}
 
 <style>
+#placeholder{
+  height: 100%;
+}
 </style>

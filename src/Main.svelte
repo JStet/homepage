@@ -4,8 +4,6 @@
 
   export let topic;
 
-
-
   function handleClicked(event) {
     topic = event.detail.name;
   }
@@ -79,7 +77,7 @@
         Click on the icons above to select a topic.
       </p>
 
-      <div class="columns is-multiline ">
+      <div class="columns is-multiline is-8">
         <Projects selectedTopic={topic} />
       </div>
     </div>

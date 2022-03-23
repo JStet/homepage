@@ -160,7 +160,6 @@
   }
 
   #first_hero,
-  #second_hero,
   #third_hero {
     position: absolute;
     width: 100%;

@@ -129,9 +129,9 @@ function adjust(x) {
 
     projects_anker.style.height =  main_margin  + "px"
 		// projects.style.margin = viewportToPixels("100vh") - main_margin + "px"
-		// projects.style.marginBottom =  footer_height +  "px"
+		projects.style.minHeight =  viewportToPixels("100vh") - main_margin - viewportToPixels("0.8vh") +  "px"
 
-		placeholder.style.height = viewportToPixels("100vh") - main_margin - footer_height  + "px"
+
 
   }
 }
