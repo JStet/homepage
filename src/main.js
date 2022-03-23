@@ -1,3 +1,7 @@
+import trianglify from "trianglify";
+import 'bulma/css/bulma.css';
+import lax from 'lax.js'
+
 import App from './App.svelte';
 
 const app = new App({
@@ -5,6 +9,7 @@ const app = new App({
 	props: {
 	}
 });
+
 
 export default app;
 
@@ -124,9 +129,9 @@ function adjust(x) {
 
     projects_anker.style.height =  main_margin  + "px"
 		// projects.style.margin = viewportToPixels("100vh") - main_margin + "px"
-		projects.style.marginBottom =  footer_height +  "px"
+		// projects.style.marginBottom =  footer_height +  "px"
 
-		placeholder.style.height = viewportToPixels("100vh") - main_margin - footer_height + "px"
+		placeholder.style.height = viewportToPixels("100vh") - main_margin - footer_height  + "px"
 
   }
 }
