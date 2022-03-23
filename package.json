@@ -19,7 +19,6 @@
     "svelte-carousel-flickity": "^2.0.2"
   },
   "dependencies": {
-    "sirv-cli": "^2.0.0",
-    "svelte-carousel": "^1.0.17-rc4"
+    "sirv-cli": "^2.0.0"
   }
 }
