@@ -55,7 +55,7 @@
 
 <!-- Icon Hero for mobile-->
 <div
-  class="columns has-background-light is-hidden-desktop p-0"
+  class="columns has-background-light is-hidden-desktop mt-5"
   id="projects_hero_mobile"
 >
   <div class="column is-1" />

@@ -3,10 +3,7 @@
 </script>
 
 <!---Mobile Navbar------------------>
-<nav
-  class="navbar is-hidden-desktop is-light is-fixed-top"
-  id="navbar_mobile"
->
+<nav class="navbar is-hidden-desktop is-light is-fixed-top" id="navbar_mobile">
   <div class="is-mobile is-light">
     <div class="navbar-item breadcrumb is-marginless center px-6 ">
       <a href="#top" class="has-text-weight-bold is-size-5 logo has-text-dark ">
