@@ -201,7 +201,10 @@ window.addEventListener('load', () => {
 
   window.addEventListener('resize', function(event) {
     setTimeout(function(){
-      window.location.reload(); //a bit of a cheat, but some things just need to reset (pattern, margins, animations etc.) when window resizes and I didnt find a better way
+			if (x.matches){
+				window.location.reload(); //a bit of a cheat, but some things just need to reset (pattern, margins, animations etc.) when window resizes and I didnt find a better way
+			}
+
     });
 
 }, false);

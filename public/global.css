@@ -15,9 +15,3 @@
 canvas {
 	clip-path: polygon(0 0, 40% 25%, 0 50%, 40% 75%, 0 100%, 40% 100%, 80% 75%, 40% 50%, 80% 25%, 40% 0);
 }
-
-body{
-	min-height: 98vh;
-	 margin: 0;
-	 padding-bottom: 0;
-}
