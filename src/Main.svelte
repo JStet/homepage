@@ -39,7 +39,7 @@
         >
         and grow vegetables in the
         <a href="https://www.instagram.com/campusgemuesekonstanz/"
-          >university garden</a
+          >university garden.</a
         >
       </p>
       <p class="is-size-6">
