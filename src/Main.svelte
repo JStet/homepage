@@ -44,7 +44,7 @@
       </p>
       <p class="is-size-6">
         To find out more, follow the links in the footer or
-        <a href="mailto:mail@jstet.net">contact me</a>
+        <a href="mailto:mail@jstet.net">contact me</a>.
       </p>
     </div>
   </div>
