@@ -35,4 +35,11 @@
       text: "Well, you are looking at it.",
       href: "https://jstet.net",
     },
+    {
+      id: "6",
+      topic: ["js"],
+      title: "Exoplanets",
+      text: "Visualizing habitable exoplanets using d3 and svelte.",
+      href: "https://exoplanets.jstet.net",
+    },
   ];
