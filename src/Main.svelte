@@ -23,7 +23,7 @@
         the <a href="https://www.uni-passau.de/">University of Passau</a>, I
         worked for one year at the
         <a
-          href="https://de.wikipedia.org/wiki/Potsdam-Institut_f%C3%BCr_Klimafolgenforschung"
+          href="https://www.pik-potsdam.de/de/institut/futurelabs/sozialer-metabolismus-klimafolgen"
         >
           Potsdam Institute for Climate Impact Research</a
         >. Currently, I am studying Social and Economic Data Science at the
@@ -34,7 +34,7 @@
         >.
       </p>
       <p class="is-size-4 is-size-5-mobile">
-        In my free time, I volunteer with <a href="https://correlaid.org/"
+        In my free time, I volunteer with <a href="https://correlaid.org/correlaidx/konstanz/"
           >CorrelAid</a
         >
         and grow vegetables in the
