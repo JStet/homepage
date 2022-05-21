@@ -17,7 +17,7 @@
   <div class="column is-hidden-touch" />
   <div class="column">
     <div class="content pt-5 is-size-7-mobile">
-      <h2 class="is-size-3 is-size-4-mobile">About me</h2>
+      <h2 class="is-size-4 is-size-5-mobile">About me</h2>
       <p class="is-size-4 is-size-5-mobile">
         After completing my Bachelor's degree in Governance and Public Policy at
         the <a href="https://www.uni-passau.de/">University of Passau</a>, I
