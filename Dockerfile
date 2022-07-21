@@ -1,7 +1,6 @@
 FROM node:16
 WORKDIR /usr/src/app
 COPY package*.json ./
-RUN rm -r node_modules/
 RUN npm config set registry https://registry.npmjs.org/
 RUN npm config rm proxy
 RUN npm config rm https-proxy
