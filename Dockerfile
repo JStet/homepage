@@ -1,4 +1,4 @@
-FROM node:12.18.1
+FROM node:13.12.0-alpine
 WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm config set registry https://registry.npmjs.org/
