@@ -1,6 +1,9 @@
 FROM node:12.18.1
 WORKDIR /usr/src/app
 COPY package*.json ./
+RUN npm config set registry https://registry.npmjs.org/
+RUN npm config rm proxy
+RUN npm config rm https-proxy
 RUN npm install
 COPY . .
 RUN npm run build
