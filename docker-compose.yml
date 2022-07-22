@@ -5,7 +5,8 @@ services:
     environment:
       VIRTUAL_HOST: jstet.net
     expose:
-       - 5000
+       - 80
+    restart: always
 
 networks:
   default:
