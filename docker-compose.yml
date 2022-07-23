@@ -3,7 +3,7 @@ services:
     build: .
     environment:
       - LETSENCRYPT_HOST=jstet.net
-      - VIRTUAL_HOST=jstet.net
+ 
     restart: always
     networks:
     - nginx-proxy_proxy

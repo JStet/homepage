@@ -1,9 +1,10 @@
-FROM node:16
-WORKDIR /usr/src/app
-COPY package*.json ./
+FROM node:16 AS build
+WORKDIR /app
+COPY package.json ./
 RUN npm install 
-COPY . .
+COPY . ./
 RUN npm run build
+
+FROM nginx
+COPY --from=build /app/public /usr/share/nginx/html
 EXPOSE 5000
-ENV HOST=0.0.0.0
-CMD ["npm", "start"]
