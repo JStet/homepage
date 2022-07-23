@@ -4,7 +4,6 @@ services:
     environment:
       - LETSENCRYPT_HOST=jstet.net
       - VIRTUAL_HOST=jstet.net
-      - VIRTUAL_PORT=8080
 
     restart: always
     networks:
