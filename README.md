@@ -8,3 +8,7 @@ Built with [svelte](https://svelte.dev/), [bulma](https://bulma.io/), [lax](http
 - cards:
   - one link to code, one link to website
   - tags for subtopics or -technologies
+
+
+/etc/nginx/conf.d/default.conf 
+
