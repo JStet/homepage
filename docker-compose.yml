@@ -6,9 +6,9 @@ services:
       - VIRTUAL_HOST=jstet.net
     restart: always
     networks:
-    - proxy
+    - nginx-proxy_proxy
     - default
 networks:
-  proxy:
+  nginx-proxy_proxy:
     external: true
 
