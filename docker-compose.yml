@@ -6,9 +6,9 @@ services:
       - VIRTUAL_HOST=jstet.net
     restart: always
     networks:
-    - frontproxy_default
+    - proxy
     - default
-    networks:
-      frontproxy_default:
-        external: true
+networks:
+  proxy:
+    external: true
 
