@@ -1,11 +1,8 @@
 services:
   web:
-    network_mode: "host"
     build: .
     environment:
       VIRTUAL_HOST: jstet.net
-    expose:
-       - 80
     restart: always
 
 networks:
