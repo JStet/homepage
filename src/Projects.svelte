@@ -10,7 +10,6 @@
   let filteredProjects = [];
 
   $: if (selectedTopic) getProjectsByTopic();
-  $: console.log(filteredProjects, selectedTopic);
 
   const getProjectsByTopic = () => {
     if (selectedTopic === "") {

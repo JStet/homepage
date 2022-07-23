@@ -42,4 +42,11 @@
       text: "Visualizing habitable exoplanets using d3 and svelte.",
       href: "https://exoplanets.jstet.net",
     },
+    {
+      id: "7",
+      topic: ["ansible, python"],
+      title: "bwCloud OTree Server Setup",
+      text: "Script that sets up an OTree project on a bwCloud server.",
+      href: "https://github.com/LS-Shikano/BwCloud_Server_Setup",
+    }
   ];
